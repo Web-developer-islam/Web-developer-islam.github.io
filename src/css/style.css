@@ -238,6 +238,9 @@ section {
   .main-content h1 {
     font-size: 2rem;
   }
+  .section-header {
+    font-size: 2rem;
+  }
   .logo,
   .phone-block {
     text-align: center;
