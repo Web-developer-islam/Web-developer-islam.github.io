@@ -89,7 +89,7 @@ section {
   margin-bottom: 4rem;
   font-family: 'ProximaNova_bold' sans-serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 4rem;
   line-height: 1.45;
   text-transform: uppercase;
 }
@@ -235,6 +235,9 @@ section {
   }
 }
 @media (max-width: 575px) {
+  .main-content h1 {
+    font-size: 2rem;
+  }
   .logo,
   .phone-block {
     text-align: center;
@@ -247,10 +250,5 @@ section {
   }
   .wrap {
     margin: 0 auto;
-  }
-}
-@media (max-width: 499px) {
-  .main-content h1 {
-    font-size: 2rem;
   }
 }
